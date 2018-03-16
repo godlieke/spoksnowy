@@ -212,10 +212,10 @@ a{
 }
 
 .aside{
-	padding-top: 60px;
-	padding-left: 60px;
+	padding-top: 35px;
+	padding-left: 40px;
 	display: block;
-	background-color: gold;
+	background-color: #FFC312;
 	width: 100%;
 	height: 600px;
 	color: black;
@@ -226,7 +226,8 @@ a{
 
 .readmore{
 	text-decoration: none;
-	color: red;
+	color: #e84118;
+	text-shadow: 1px 1px 1px white;
 }
 
 .sampletextes{
@@ -333,38 +334,87 @@ a{
 }
 
 .textsection1{
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 15px;
 	display: block;
-	width: 60%;
+	width: 50%;
 }
 
 .textsection2{
-	margin-top: 15px;
+	margin-top: 25px;
 	padding: 15px;
 	display: block;
-	width: 60%;
-}
-
-.textsection3{
-	margin-top: 15px;
-	padding: 15px;
-	display: block;
-	width: 60%;
+	width: 50%;
+	position: relative;
+	top: -538px;
+	margin-left: 50%;
 }
 
 .h1section{
 	text-align: left;
-	color: gold;
-	text-shadow: 1px 1px 1px black;
+	color: #EA2027;
+	text-shadow: 1px 1px 1px white;
+}
+
+.h1presection{
+	mergin:0;
+	padding:0;
+	text-align: left;
+	margin-left: 13px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.h1presection2{
+	mergin:0;
+	padding:0;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-shadow: 1px 1px 1px white;
+	margin-left: 73px;
+	margin-top: 20px;
 }
 
 .lowernav{
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	display: block;
-	box-shadow: inset 1px 1px 5px black;
+	box-shadow: inset 1px 1px 5px  1px black;
 	background-color: #806600;
+}
+
+.fotosection{
+	width: 100%;
+	height: 400px;
+	padding:0;
+	margin:0;
+	background-color: #f6e58d;
+	box-shadow: inset 1px 1px 4px black;
+}
+
+.sectionol99{
+	list-style-type: none;
+	margin:0;
+	padding:50px;
+	display: flex;
+	justify-content: center;
+}
+
+.img991{
+	width: 300px;
+	height: 200px;
+	padding: 300px;
+	padding:0;
+	margin: 0;
+	margin-right: 80px;
+	box-shadow: 0 0 15px black;
+	display: block;
+}
+
+.img991:hover{
+	box-shadow: 0 0 15px white;
 }
 
 .socialol{
@@ -415,6 +465,17 @@ a{
 	right:8px;
 }
 
-.facebookfig{
-	margin-right: 14px;
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: gold;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
 }
