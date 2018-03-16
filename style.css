@@ -6,6 +6,7 @@
 .container{
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
@@ -337,17 +338,19 @@ a{
 	margin-top: 10px;
 	padding: 15px;
 	display: block;
-	width: 50%;
+	width: 48%;
+	font-size: 15px;
 }
 
 .textsection2{
-	margin-top: 25px;
+	margin-top: 58px;
 	padding: 15px;
 	display: block;
-	width: 50%;
+	width: 47%;
 	position: relative;
 	top: -538px;
 	margin-left: 50%;
+	font-size: 15px;
 }
 
 .h1section{
